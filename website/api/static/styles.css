@@ -82,8 +82,8 @@ a { color: #fff; }
 
 .contact-info {
   position: fixed;
-  top: 200px;
-  right: 900px;
+  top: 20px;
+  right: 1020px;
   display: flex;
   flex-direction: column;
   gap: 15px;
