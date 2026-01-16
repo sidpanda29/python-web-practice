@@ -79,3 +79,35 @@ p {
 }
 
 a { color: #fff; }
+
+.contact-info {
+  position: fixed;
+  top: 200px;
+  right: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+.contact-item .label {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.contact-item .colon {
+  margin: 0 8px;
+  flex-shrink: 0;
+}
+
+.contact-item .value {
+  text-align: left;
+  flex-shrink: 0;
+}
