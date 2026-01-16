@@ -1,8 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
 html, body {
-  background: #000;
-  color: #fff;
+  background: #333333;
+  color: #c2c2c2;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.welcome-section h1,
+.welcome-section p {
+  margin-left: auto;
+  width: fit-content;
+  padding-right: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.about-section {
+  padding: 40px 20px;
+}
+
+.about-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 40px;
+  position: relative;
+}
+
+.about-images {
+  flex-shrink: 0;
+  margin-right: 200px;
+}
+
+.about-photo {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.divider {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 500px;
+  background-color: #c2c2c2;
+  top: 0;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 500px;
+  margin-left: 200px;
+  line-height: 1.6;
+}
+
+.about-text p {
+  margin: 0;
 }
 
 a { color: #fff; }
