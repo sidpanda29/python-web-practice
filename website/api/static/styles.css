@@ -27,7 +27,7 @@ p {
 }
 
 .about-section {
-  padding: 40px 20px;
+  padding: 40px 0;
 }
 
 .about-section h2 {
@@ -38,16 +38,17 @@ p {
 .about-container {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
-  max-width: 1400px;
-  margin: 0 auto;
-  gap: 40px;
+  justify-content: flex-start;
+  width: 100%;
   position: relative;
 }
 
 .about-images {
+  width: 33.33%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 200px;
   flex-shrink: 0;
-  margin-right: 200px;
 }
 
 .about-photo {
@@ -56,13 +57,12 @@ p {
   object-fit: cover;
   border-radius: 12px;
   border: 4px solid #c2c2c2;
-  margin-right: 200px;
 }
 
 .divider {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 33.33%;
+  transform: translateX(calc(-50% - 100px));
   width: 2px;
   height: 500px;
   background-color: #c2c2c2;
@@ -70,9 +70,9 @@ p {
 }
 
 .about-text {
-  flex: 1;
-  max-width: 500px;
-  margin-left: 200px;
+  width: 66.67%;
+  padding-left: 200px;
+  padding-right: 40px;
   line-height: 1.6;
 }
 
