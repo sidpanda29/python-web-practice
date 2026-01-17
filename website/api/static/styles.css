@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 html, body {
-  background: #333333;
+  background: #191919;
   color: #c2c2c2;
   margin: 0;
   padding: 0;
@@ -66,7 +66,7 @@ h1 + p {
 }
 
 .about-images {
-  width: 33.33%;
+  width: 25%;
   display: flex;
   justify-content: flex-end;
   flex-shrink: 0;
@@ -98,6 +98,34 @@ h1 + p {
 
 .about-text p {
   margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Procereus&display=swap');
+
+.projects-section {
+  padding: 60px 20px;
+}
+
+.project-header {
+  font-family: 'Procereus', serif;
+  font-size: 48px;
+  transform: scaleY(2);
+  transform-origin: top;
+  margin: 0 0 40px 0;
+  line-height: 1;
+}
+
+.cs-projects {
+  color: #c2c2c2;
+}
+
+.ee-projects {
+  color: #c2c2c2;
+}
+
+.projects-content {
+  color: #c2c2c2;
+  font-family: 'Poppins', sans-serif;
 }
 
 a { color: #fff; }
