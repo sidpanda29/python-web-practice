@@ -60,7 +60,7 @@ p {
 }
 
 .divider {
-  position: absolute;
+  position: relative;
   left: 33.33%;
   transform: translateX(calc(-50% - 100px));
   width: 2px;
