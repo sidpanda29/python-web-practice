@@ -47,7 +47,6 @@ p {
   width: 33.33%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 200px;
   flex-shrink: 0;
 }
 
@@ -62,7 +61,7 @@ p {
 .divider {
   position: relative;
   left: 33.33%;
-  transform: translateX(calc(-50% - 100px));
+  transform: translateX(calc(-50% + 100px));
   width: 2px;
   height: 500px;
   background-color: #c2c2c2;
