@@ -107,6 +107,7 @@ h1 + p {
 
 .projects-section {
   padding: 60px 20px;
+  margin-top: 25vh;
 }
 
 .project-header {
