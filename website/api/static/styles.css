@@ -16,6 +16,28 @@ p {
   font-family: 'Roboto Mono', monospace;
 }
 
+h1 {
+  background: #ff4b33;
+  color: #000;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin: 0;
+  width: fit-content;
+}
+
+h1 + p {
+  background: #fff;
+  color: #000;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin: 0;
+  width: fit-content;
+}
+
 .welcome-section h1,
 .welcome-section p {
   margin-left: auto;
@@ -60,8 +82,7 @@ p {
 
 .divider {
   position: relative;
-  left: 33.33%;
-  transform: translateX(calc(-50% + 100px));
+  transform: translateX(calc(-50% + 110px));
   width: 2px;
   height: 500px;
   background-color: #c2c2c2;
