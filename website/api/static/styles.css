@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
   background: #191919;
   color: #c2c2c2;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 h1, h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 h1 {
@@ -109,6 +112,8 @@ h1 + p {
 .project-header {
   font-family: 'Procereus', serif;
   font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
   transform: scaleY(2);
   transform-origin: top;
   margin: 0 0 40px 0;
@@ -125,7 +130,8 @@ h1 + p {
 
 .projects-content {
   color: #c2c2c2;
-  font-family: 'Poppins', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 a { color: #fff; }
