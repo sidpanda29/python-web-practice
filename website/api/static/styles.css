@@ -9,6 +9,12 @@ html, body {
   font-weight: bold;
 }
 
+.top-spacer {
+  height: 75px;
+  background-color: #191919;
+  width: 100%;
+}
+
 h1, h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
