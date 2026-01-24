@@ -80,7 +80,7 @@ h1 + p {
   height: 500px;
   object-fit: cover;
   border-radius: 12px;
-  border: 4px solid #c2c2c2;
+  border: 4px solid #191919;
 }
 
 .divider {
@@ -88,7 +88,7 @@ h1 + p {
   transform: translateX(calc(-50% + 110px));
   width: 2px;
   height: 500px;
-  background-color: #c2c2c2;
+  background-color: #191919;
   top: 0;
 }
 
@@ -122,15 +122,15 @@ h1 + p {
 }
 
 .cs-projects {
-  color: #c2c2c2;
+  color: #191919;
 }
 
 .ee-projects {
-  color: #c2c2c2;
+  color: #191919;
 }
 
 .projects-content {
-  color: #c2c2c2;
+  color: #191919;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
