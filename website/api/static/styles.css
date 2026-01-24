@@ -136,3 +136,26 @@ h1 + p {
 }
 
 a { color: #fff; }
+
+.intro-section {
+  padding: 60px 20px;
+}
+
+.intro-header {
+  font-family: 'Procereus', serif;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transform: scaleY(2);
+  transform-origin: top;
+  margin: 0 0 40px 0;
+  line-height: 1;
+  color: #191919;
+}
+
+.intro-content {
+  color: #191919;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  max-width: 800px;
+}
