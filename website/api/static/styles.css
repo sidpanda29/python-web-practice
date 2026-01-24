@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
-  background: #191919;
-  color: #c2c2c2;
+  background: #fff;
+  color: #191919;
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-}
-
-.top-spacer {
-  height: 75px;
-  background-color: #191919;
-  width: 100%;
 }
 
 h1, h2 {
